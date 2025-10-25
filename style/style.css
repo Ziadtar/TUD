@@ -1,0 +1,847 @@
+/* ****************************************general style******************************************************** */
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: #f5f3ff;
+    z-index: 99;
+}
+ul{
+    float: right;
+    margin-top: 5%;
+    margin-right: 20px;
+}
+ul li{
+    width: 50px;
+    display: inline;
+    margin: 20px;
+    font-family: "Exo", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+ .T-Back{
+    border-radius: 15px;
+    padding: 8px 20px;
+    margin: 4px;
+    }
+ button{
+        display: block;
+        width: 450px;
+        height: 60px;
+        border-radius: 30px;
+    }
+.statice-heading{
+        margin: 60px auto;
+        text-align: center;
+    }
+.statice-heading h2{
+        font-size: 40px;
+        margin-bottom: 8px;
+    }
+.statice-heading h2 span{
+        color: #7b61ff;
+     }
+.statice-heading p{
+        font-size: 15px;
+        color: #777;
+    }
+.purple{
+    background-color: #7b61ff;
+}
+span.purple{
+    color: white;
+}   
+.clear{
+    clear: both;
+}
+.w-78{
+        width: 78%;
+}
+.w-15{
+        width: 15%;
+}
+.w-5{
+        width: 5%;
+}
+.w-015{
+        width: 1.5%;
+}
+.w-05{
+        width: 0.5%;
+}
+.col-1{
+    background-color: #00BBA7;
+}
+.col-2{
+    background-color: #00C950;
+}
+.col-3{
+    background-color: #00B8DB;
+}
+.col-4{
+    background-color: #FF6900;
+}
+i.icon-red:hover{
+    background-color: #FF0000;
+}
+i.icon-blue:hover{
+    background-color: #1877F2;
+}
+i.icon-iqua:hover{
+    background-color: #1DA1F2;
+}
+i.icon-tomato:hover{
+    background-color: #E4405F;
+}
+/* ****************************************general style******************************************************** */
+/* ****************************************hero section start ******************************************************** */
+/* ****************************************hero section nav-bar Start ******************************************************** */
+nav .main{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.main .logo{
+    height: 100%;
+    float: left;
+    width: 50%;
+}
+.Nav-Bar{
+    height: 100%;
+    float: right;
+    width: 50%;
+}
+.logo a{
+    width: 60px;
+    height: 60px;
+    margin-top: 2.5%;
+    display: inline-block;
+    background-color: #8e51ff;    
+    text-align: center;
+    border-radius: 10px;    
+}
+.logo i{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 35%;
+}
+.logo h2{
+    display: inline;
+    position: relative;
+    top: 25px;
+    color: rgb(51,51,51);
+    font-family: "Exo", sans-serif;
+    font-size: 34px;
+     line-height: 32px;
+     font-weight: 800;
+     margin-left: 15px;
+}
+ul li.active{
+    color: #a657fe;
+    border-bottom: 3px solid #a657fe;
+}
+ul li.other{
+    position: relative;
+}
+ul li.other::before{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #a657fe;
+    transition: all  0.2s;
+}
+ul li.other:hover::before{
+    width: 100%;
+}
+ul li.other:hover{
+    color: #a657fe;
+}
+
+ /* ****************************************hero section nav-bar End ******************************************************** */
+ /* ****************************************hero section body Start ******************************************************** */
+ section{
+       width: 100%;
+ }
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.img-Div{
+    float: left;
+    width: 45%;
+    border: 2px solid rgb(225, 227, 231);   
+    border-radius: 20px;
+    position: relative;
+    top: 190px; 
+    left: 90px;   
+}
+.img-Div img{
+    width: 90%;
+    margin: 40px 40px;
+    border-radius: 10px;
+}
+.img-Div .offer{
+    position: absolute;
+    top: 60px;
+    left: 65px;
+    font-weight: bold;
+    color: white;
+    background-color: #a657fe;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;    
+}
+.offer p{
+    position: absolute;
+    text-align: center;
+    bottom: -12px;
+    left: 27px;
+    font-family: "EXO";
+}
+    .Hero-Text{
+    height: 820px;
+    float: right;
+    width: 45%;
+    border-radius: 20px;
+    position: relative;
+    top: 190px;
+    /* right: 60px; */
+    }
+    .small-Text{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    }
+    .small-Text p{
+        font-family: "Exo", sans-serif;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: normal;
+        color: white;   
+        display: inline;    
+        margin:  20px;
+    }
+    .T-Back.para{
+    background-color: #A684FF;
+    }
+    .main-text{
+    width: 100%;
+    height: 60%;
+    margin-top: 10px;
+    }
+    .main-text h1{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Exo' , sans-serif;
+    padding-top: 20px;
+    line-height: 60px;
+    }
+    .main-text h1 span{
+        color: #a657fe;
+    }
+    .main-text .Hero-description {
+        font-family: 'Exo' , sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        letter-spacing: normal;
+        line-height: 32.5px;
+    }
+    .discount-section{
+        margin: 20px;
+    }
+    .after-Discount{
+        font-family: 'Exo' , sans-serif;
+        font-size: 36px;
+        line-height: 40px;
+        font-weight: 700;
+        letter-spacing: normal;
+        color: #333333;
+        margin-right: 10px;
+    }
+    .main-price{
+        font-family: 'Exo' , sans-serif;
+        font-size: 30px;
+        line-height: 32px;
+        font-weight: 400;
+        letter-spacing: normal;
+        color: #333333;
+        text-decoration: line-through;
+        margin-right: 10px;
+    }
+    .Save{
+        display: inline;
+        color: rgb(231, 0, 11);
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+        letter-spacing: normal;
+        font-family: 'Exo' , sans-serif;
+    }
+    .Para2{
+        background-color: #FFE2E2;
+        padding-bottom: 6px;
+    }
+    .d-offer{
+        font-family: 'Exo' , sans-serif;    
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+        letter-spacing: normal;
+    }
+    .cart-And-Add{
+        width: 80%;
+        margin: 30px auto;
+    }
+    .cart-And-Add button{
+         margin: 30px auto;
+         font-size: 20px;
+         font-weight: 900;  
+         transition: scale 0.3s;
+    }
+    .cart-And-Add button.purple{
+         color: white;
+         background-color: #8e51ff;
+        }
+    .cart-And-Add button.purple  i{
+        display: inline;
+        color: white;
+    }
+    .black-hart i{
+        color: black;
+        margin: 20px;
+    }
+     .cart-And-Add button:hover{
+        scale: 1.1;
+     }
+ /* ****************************************hero section body End ******************************************************** */
+ /* ****************************************hero section End ******************************************************** */
+ /* ****************************************table section start ******************************************************** */
+ .Our-services{
+    width: 100%;
+    background-color: #F7F5FF;
+    margin-top: 160px;
+    padding: 50px 0;
+}
+ 
+.services-table {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+  width: 92%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 25px 35px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+thead {
+  background-color: #faf9ff;
+}
+
+th, td {
+  border-bottom: 1px solid #eee;
+  padding: 16px 12px;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+th {
+  font-weight: 600;
+  color: #444;
+}
+
+td {
+  color: #444;
+}
+
+.sub {
+  display: block;
+  color: #888;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 4px;
+}
+
+.highlight {
+  background-color: #f1ecff;
+  color: #4a30e0;
+  font-weight: 600;
+  border-left: 3px solid #7b61ff;
+  border-right: 3px solid #7b61ff;
+}
+
+.top-round {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: 1px solid #4a30e0
+}
+
+.bottom-round {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 3px solid #7b61ff;
+}
+
+
+
+.winner-box {
+  background: #e7fbe7;
+  border: 1px solid #a5e1a5;
+  display: inline-block;
+  padding: 18px 28px;
+  border-radius: 10px;
+  color: #333;
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.small {
+  display: block;
+  font-size: 12px;
+  color: #555;
+  margin-top: 4px;
+}
+/* ****************************************table section End ******************************************************** */
+/* ****************************************Rate and comment section start ******************************************************** */
+.Rates{
+    width: 90%;
+    /* height: 900px; */
+    margin: 40px auto;
+    position: relative;
+    
+}
+/* sticky card  start*/
+.elevator{
+    width: 30%;
+    height: 1500px;
+    position: relative;
+    margin: 20px;
+    float: left;
+    /* top: 50px; */
+}
+.avrage-Rate{
+    position: sticky;
+    margin-left: 40px;
+    border-radius: 15px;
+    border: 1px solid #E5E7EB;
+     top: 0;
+}
+.avrage-Rate .avrage{
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+.avrage-Rate .avrage h3{
+    font-size: 60px;
+    line-height: 40px;
+    font-weight: 700;
+    color: black ;
+}
+.avrage-Rate .avrage p{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    color: black;
+}
+.rate-Bars{
+    width: 100%;
+}
+.rate-Bars .Stars-Bar{
+    width: 65%;
+    margin: 5px auto;
+}
+.rate-Bars .Stars-Bar span{
+    display: inline-block;
+}
+.bar-number{
+    width: 15%;
+    font-size: 20px;
+    margin-right: -10px;
+    margin-left: 10px;
+}
+.gray-bar{
+    width: 65%;
+    height: 10px;
+    background-color: #E5E7EB;
+    border-radius: 20px;
+}
+.gold-bar{
+    height: 10px;
+    background-color: #F0B100;
+    border-radius: 20px;
+    top: -4px;
+    position: relative;
+}
+.line{
+    width: 75%;
+    margin: 40px auto 20px auto;
+    color: #E5E7EB;
+}
+.recommend-and-Quality {
+    width: 100%;
+    margin: 20px auto 0px auto;
+    text-align: center;
+}
+.recommend-and-Quality  span{
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px;
+}
+.recommend-and-Quality  span h4{
+    font-size: 20px;
+}
+.recommend-and-Quality  span p{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+/* sticky card  end*/
+/* comments start */
+.comments{
+    width: 65%;
+    float: right;
+}
+.comment-containar{
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+}
+.comment-containar .comment-title{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+.comment-bar{
+    width: 100%;
+    height: 50%;
+    
+}
+.comment-bar .comment-img{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.comment-img .only-img{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+.only-img img{
+    width: 90px;    
+    height: 90px;
+    position: absolute;
+    top: 10%;
+    border-radius: 50%;
+}
+.avatar-data{
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    left: 100px;
+}
+.avatar-data h4{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.avatar-data p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.comment-date{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.comment-date .right{
+    width: 50%;
+    height: 100%;
+    float: right;
+    margin-top: 15px;
+}
+.right .p1{
+    margin: 5px;
+    float: right;
+    background-color: #EDE9FE;
+    padding: 5px 20px 5px ;
+    border-radius: 20px;
+    color: #5D0EC0;
+    font-weight: 700;
+}
+.right .p2{
+    margin: 8px;
+   float: right;
+   padding: 5px;
+   font-weight: 500;
+   font-size: 20px;
+}
+.comment-content p{
+    margin-top: 0;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: normal;
+    color: #333;
+}
+.comments button{
+    display: block;
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 60px auto;
+    background-color: #8E51FF;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    transition: background-color 0.5s;
+}
+.comments button:hover{
+    background-color:white;
+    color: #8e51ff;
+    border: 1px solid #8e51ff;
+}
+/* comments END */
+/* ****************************************Rate and comment section End ******************************************************** */
+/* ****************************************Cards section start ******************************************************** */
+.cards{
+    width: 100%;
+    background-color: #F7F5FF;
+    margin-top: 60px;
+    padding: 50px 0;
+}
+.card-containar{
+    width: 100%;
+    margin: 20px 0;
+    height: 500px;
+    position: relative;
+}
+.card-containar .all-cards{
+    width: 100%;
+    /* height: 500px; */
+    /* margin: 0 auto; */
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+}
+.all-cards .card{
+    width: 20%;
+    background-color: #EDE9FE;
+    /* margin: 30px 20px 0 20px; */
+    text-align: center;
+    float: left;
+}
+.four-cards .card{
+    margin-left: 50px;
+    border-radius: 15px
+}
+.card-photo{
+    width: 90%;
+    height: 50%;
+    position: relative;
+}
+.card-photo img{
+    width: 100%;
+    /* height: 100%; */
+    margin: 15px;
+    border-radius: 15px;
+    transition: scale 0.5s;
+}
+.card-photo img:hover{
+    scale: 0.93;
+}
+.card-photo p{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px;
+}
+.card-text{
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+.card-text span{
+    display: inline-block;
+}
+.card-text button{
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    position: relative;
+    right: -130%;
+    color: white;
+    font-weight: 500;
+    background-color: #4a30e0;
+    border-radius: 5px;
+    transition: all 1s;
+}
+.card-text button:hover{
+    color: #4a30e0;
+    background-color: white;
+    border-radius: 25px;
+}
+.all-accessories{
+    margin: 80px auto 0 auto;
+    width: 260px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #F7F5FF;
+    color: #4a30e0;
+    border: 1px solid #4a30e0;
+    transition: background-color  0.5s;
+}
+.all-accessories:hover{
+    color: white;
+    border-color: white;
+    background-color: #4a30e0;
+
+}
+/* ****************************************Cards section End ******************************************************** */
+/* ****************************************footer section start ******************************************************** */
+footer{
+    width: 100%;
+    height: 900px;
+    background-color: #101828;
+}
+.footer-containar {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+.footer-containar .footer-map{
+    width: 90%;
+    height: 70%;
+    position: absolute;
+    top: 50px;
+    left: 5%;
+}
+.upper-footer{
+    width: 100%;
+    height: 60%;
+}
+.logo-and-icons{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+.logo-and-icons .logo{
+    margin-left: 5%;
+}
+.logo-and-icons .footer-text{
+    margin-top: 24px;
+}
+.logo-and-icons .footer-Text{
+    width: 80%;
+    margin-top: 40px;
+}
+.logo-and-icons p{
+    margin-top: 30px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+}
+.logo-and-icons .footer-icons{
+    width: 90%;
+    margin: 40px  auto;
+}
+.footer-icons i{
+    /* width: 30px;
+    height: 30px; */
+    font-size: 20px;
+    margin: 0 10px;
+    color: white;
+    background-color: #1E2939;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.tables{
+    width: 70%;
+    display: inline-block;
+    height: 100%;
+    float: right;
+}
+.tables .parant{
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+}
+.tables .parant .child{
+    width: 80%;
+    height: 90%;
+}
+.tables .parant .child h3{
+    font-size: 24px;
+    color: white;
+    line-height: 22px;
+}
+.tables .parant .child p{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #99A1AA;
+    transition: color 0.3s;
+}
+.tables .parant .child p:hover{
+    color: white;
+}
+.H-color{
+    color: #99A1AA;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-left a {
+  color: #fff8c5;
+  text-decoration: none;
+}
+
+.footer-left a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-right img {
+  width: 50px;
+  height: auto;
+  margin-left: 10px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 6px;
+}
+/* ****************************************footer section End ******************************************************** */
